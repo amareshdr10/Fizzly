@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    height: auto;
+    width:500px
+
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo img {
+    height: auto;
+    width: 200px;
+    margin: 0;
+
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #ff748c ;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    border: 2px solid #ff748c;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ff748c;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ff748c;
+    color: #ffffff;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    margin: 0 20px;
+    max-width: 20%;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+.know-more {
+    display:inline-block;
+    margin-top: 250px;
+    margin-left: 1250px;
+    padding: 15px 30px;
+    background-color: #ff748c;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;text-indent: 0%;
+}
+
+.know-more:hover {
+    background-color: #ff506a;
+}
